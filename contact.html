@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/cocacolazero/assets/css/style.css">
     <title>Contattaci</title>
     <style>
         body {
@@ -15,7 +16,7 @@
 
 
 
-        section {
+        main {
             max-width: 600px;
             margin: 40px auto;
             background-color: #fff;
@@ -54,10 +55,23 @@
 </head>
 <body>
     <header>
-        <h1>Contattaci</h1>
+        <div class="flex">
+            <div class="logo">
+                <img id="cocalogo" src="https://cdn.discordapp.com/attachments/1175157083553923163/1176838020159246376/IMG_9175.jpg?ex=657052d0&is=655dddd0&hm=b91aad7193a817c613413c6026d8fbc37836c97b0b7a58bb5413315e8a58d6db&" alt="Coca-Cola" width="200px">
+            </div>
+    
+            <!-- button -->
+            <div class="flex-buttons">
+                <button type="button" class="btn btn-danger"><a href="/cocacolazero/story.html">Chi siamo</a></button>
+                <button type="button" class="btn btn-danger"><a href="#">Zero is meglio di one</a></button>
+                <button type="button" class="btn btn-danger"><a href="/cocacolazero/contact.html">Contattaci</a></button>
+                
+            </div> 
+        </div>
     </header>
 
-    <section>
+    <main>
+        <h1>Contattaci</h1>
         <form>
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
@@ -70,6 +84,6 @@
 
             <button type="submit">Invia Messaggio</button>
         </form>
-    </section>
+    </main>
 </body>
 </html>
