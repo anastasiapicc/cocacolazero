@@ -2,8 +2,14 @@
     display: flex;  
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 2px black;
 }
 
+#cocalogo{
+    border-radius: 20px;
+    border: solid black 2px;
+}
 
 .flex-buttons{
     display: flex;
