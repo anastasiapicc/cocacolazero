@@ -1,14 +1,16 @@
+
+
 .flex{
     display: flex;  
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: solid 2px black;
+    border-radius: 50px;
+    background-color: white;
 }
 
 #cocalogo{
     border-radius: 20px;
-    border: solid black 2px;
 }
 
 .flex-buttons{
@@ -24,3 +26,43 @@
     text-decoration: none;
     color: white;
 }
+
+#pop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 2px 4px 10px black;
+}
+
+.card-image{
+    margin: 10px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(207, 36, 36);
+}
+
+main {
+    display: block;
+    background-color: rgb(207, 36, 36);
+}
+
+x
