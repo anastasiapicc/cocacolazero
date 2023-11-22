@@ -28,16 +28,16 @@
     color: white;
 }
 
-#pop{
+#can{
     display: flex;
     justify-content: center;
     padding-top: 152.5px;
 }
 
-#pop img{
+#can img{
     width: 100%;
-    max-width: 700px;
 }
+
 .flex-card{
     display: flex;
     justify-content: space-around;
