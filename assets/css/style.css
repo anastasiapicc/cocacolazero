@@ -1,21 +1,24 @@
+
+
 .flex{
     display: flex;  
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: solid 2px black;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #cocalogo{
     border-radius: 20px;
-    border: solid black 2px;
 }
 
 .flex-buttons{
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    margin-right: 20px;;
+    margin-right: 20px;
     justify-content: space-between;
     gap: 10px;
 }
@@ -24,3 +27,45 @@
     text-decoration: none;
     color: white;
 }
+
+#can{
+    display: flex;
+    justify-content: center;
+    padding-top: 152.5px;
+}
+
+#can img{
+    width: 100%;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 2px 4px 10px black;
+    padding: 10px;
+}
+
+
+
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+main {
+    display: block;
+    background-color: rgb(207, 36, 36);
+}
+
