@@ -115,3 +115,13 @@ form {
     flex-direction: column;
     justify-content: space-between;
 }
+
+footer{
+    height: 150px;
+    padding: 50px;
+    background-color: black;
+    
+}
+footer svg{
+    fill: silver;
+}
