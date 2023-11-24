@@ -106,3 +106,13 @@ body.contact main{
     display: block;
     width: 600px;
 }
+
+footer{
+    height: 150px;
+    padding: 50px;
+    background-color: black;
+    
+}
+footer svg{
+    fill: silver;
+}
