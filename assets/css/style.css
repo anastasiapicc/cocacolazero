@@ -226,7 +226,7 @@ footer{
     height: 150px;
     padding: 50px;
     background-color: black;
-    
+    text-align:center;
     
 }
 footer svg{
@@ -234,7 +234,5 @@ footer svg{
     
 }
 
-footer img{
-    
-}
+
 
