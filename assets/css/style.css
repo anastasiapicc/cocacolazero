@@ -1,7 +1,5 @@
-
-
-.flex{
-    display: flex;  
+.flex {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
@@ -10,11 +8,11 @@
     border-bottom-right-radius: 50px;
 }
 
-#cocalogo{
+#cocalogo {
     border-radius: 20px;
 }
 
-.flex-buttons{
+.flex-buttons {
     display: flex;
     justify-content: flex-end;
     text-align: right;
@@ -23,33 +21,33 @@
     gap: 10px;
 }
 
-.btn-danger a{
+.btn-danger a {
     text-decoration: none;
     color: white;
 }
 
-.card img{
+.card img {
     max-width: 20vw;
 
 }
 
-#can{
+#can {
     display: flex;
     justify-content: center;
     padding-top: 152.5px;
 }
 
-#can img{
+#can img {
     width: 100%;
 }
 
-.flex-card{
+.flex-card {
     display: flex;
     justify-content: space-around;
 
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -64,14 +62,13 @@
 
 
 
-header{
+header {
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
 main {
-    display: block;
     background-color: rgb(207, 36, 36);
 }
 
@@ -90,11 +87,11 @@ main {
     border-radius: 8px;
 }
 
-body.story main{
+body.story main {
     padding: 20px;
 }
 
-body.contact main{
+body.contact main {
     padding: 40px;
     padding-top: 200px;
     display: flex;
@@ -102,7 +99,19 @@ body.contact main{
     align-items: center;
     width: 100%;
 }
+
 .contattaci-form {
     display: block;
     width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
