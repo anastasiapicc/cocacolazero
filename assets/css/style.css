@@ -50,7 +50,7 @@
 #can{
     display: flex;
     justify-content: center;
-    padding-top: 152.5px;
+    padding-top: 102px;
     border:2px solid #0e0e0e;
     box-shadow: 2px 4px 10px black;
 }
@@ -116,8 +116,9 @@ main {
 }
 
 .card-story h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Caveat', cursive;
     text-align: center;
+    
 }
 
 .card-story p{
@@ -140,9 +141,10 @@ body.story main{
 .foto-locandina p{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     color: white;
-    font-family:  ;
+    font-family: 'Caveat', cursive;
+    text-shadow: 1px 4px 5px black;;
 }
 
 #foto-locand {
@@ -155,15 +157,6 @@ body.story main{
 }
 
 /*foto locandina fine */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -216,11 +209,12 @@ flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-weight:bold;
 }
 
 .contact button{
     padding: 10px;
-    background-color: #dd3b3b;
+    background-color: rgb(207, 36, 36);
     color: white;
     border: none;
     border-radius: 4px;
