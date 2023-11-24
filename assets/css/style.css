@@ -13,6 +13,7 @@
 
 #cocalogo{
     border-radius: 20px;
+    margin-left: 20%;
 }
 
 .flex-buttons{
@@ -33,6 +34,7 @@
     text-decoration: none;
     color: white;
     text-shadow: 1px 2px 2px rgb(7, 7, 7);
+    font-weight:unset;
 }
 
 .btn-danger a:active {
@@ -83,6 +85,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1;
+    
 }
 
 main {
@@ -97,6 +100,8 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 152.5px;
     background-color: white;
+    border: 2px solid #0e0e0e;
+    box-shadow: 2px 4px 10px black;
 
     
 }
@@ -105,24 +110,63 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 2px solid #0e0e0e;
+    box-shadow: 2px 4px 10px black;
     
 }
 
 .card-story h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    text-shadow: 2px 3px 7px rgb(207, 36, 36);
 }
 
 .card-story p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-size: 20px;
+    
     
 }
 
 body.story main{
     padding: 20px;
 }
+
+/*foto locandina */
+.foto-locandina {
+    width: 100%; 
+    text-align: center; 
+}
+
+.foto-locandina p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-family:  ;
+}
+
+#foto-locand {
+    width: 97%; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 8px;
+    border: 2px solid #0e0e0e;
+    box-shadow: 2px 4px 10px black;
+}
+
+/*foto locandina fine */
+
+
+
+
+
+
+
+
+
+
+
+
 
 body.contact main{
     padding: 40px;
@@ -148,7 +192,6 @@ background-color: #fff;
 padding: 20px;
 border-radius: 8px;
 box-shadow: 2px 4px 10px black;
-
 }
 
 .contact h1{
@@ -184,10 +227,15 @@ flex-direction: column;
     cursor: pointer;
     box-shadow: 2px 4px 10px black;
     text-shadow: 1px 2px 2px rgb(7, 7, 7);
+    border: 2px solid #0e0e0e;
+
+
+
 footer{
     height: 150px;
     padding: 50px;
     background-color: black;
+    
     
 }
 footer svg{
